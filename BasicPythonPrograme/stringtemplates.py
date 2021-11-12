@@ -16,8 +16,7 @@ def stringTemplates(username):
         return "username should min 3 character:"
     else:
         return "Hello "+username+" How are you"
-    
-    
+
 username = input("Enter username:")
 output_message = stringTemplates(username)
 print(output_message)
