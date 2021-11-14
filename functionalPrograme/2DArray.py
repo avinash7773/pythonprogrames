@@ -17,7 +17,6 @@ def printArray(array):
         print()
 
 
-
 array = []
 try:
     number_of_rows = int(input("Enter number of rows:"))
@@ -30,6 +29,3 @@ try:
     printArray(array)
 except ValueError as e:
     print("Number of rows and colunm should be integer", e)
-
-
-
