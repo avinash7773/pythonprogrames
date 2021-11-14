@@ -1,7 +1,19 @@
+"""
+@Author : Avinash Jadhav
+@Date : 2021-11-12
+@Last Modify by : Avinash Jadhav
+@Title : generate coupens
+"""
+
 import random
 
 
 class Coupon:
+    """
+      @Description : generate coupon from random function and store into a file
+      @Parameter   : parameter is amount of coupon you want to generate
+      @return      : -
+    """
     try:
         def generate(amount):
             coupon = open("coupons.txt", "a")
