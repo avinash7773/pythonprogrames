@@ -22,4 +22,4 @@ def prime_factors(num):
         print(num)  
   
 num = int(input("Enter number:"))  
-prime_factors(num)  
+prime_factors(num)
